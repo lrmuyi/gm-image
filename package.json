@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "clear": "bash ./clear.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "^1.23.1",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {
+    "inquirer": "^7.0.0"
+  }
+}
